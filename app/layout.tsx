@@ -73,9 +73,9 @@ return (
   <Categories />
   <GoodLooksSection />
   <WinterSection />
+  <GstBanner />
   <ExtraBanner />
   <ExploreBrands />
-  <GstBanner />
   <Lakme />
   <AmericanEagleBanner />
 
