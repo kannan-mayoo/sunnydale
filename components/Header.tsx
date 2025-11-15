@@ -149,7 +149,7 @@ import { Heart, ShoppingBag, MoreVertical } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="w-full bg-white border-b border-gray-200 shadow-sm">
+    <header className="w-full bg-white border-b  shadow-sm border-yellow-300/50 ">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <h1 className="text-2xl font-semibold tracking-tight hover:cursor-pointer text-gray-900">

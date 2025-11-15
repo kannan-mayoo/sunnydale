@@ -64,28 +64,28 @@ description: 'Next.js + Tailwind front-end clone (demo)'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 return (
-<html lang="en" className={roboto.variable}>
-<body className="bg-white text-gray-800 scroll-smooth">
-<Header />
-<main>
-  {children}
-  <Hero />
-  <Categories />
-  <GoodLooksSection />
-  <WinterSection />
-  <GstBanner />
-  <ExtraBanner />
-  <ExploreBrands />
-  <Lakme />
-  <AmericanEagleBanner />
+  <html lang="en" className={roboto.variable}>
+    <body className="bg-white text-gray-800 scroll-smooth bg-yellow-50/70">
+      <Header />
+      <main>
+        {children}
+        <Hero />
+        <Categories />
+        <GoodLooksSection />
+        <WinterSection />
+        <GstBanner />
+        <ExtraBanner />
+        <ExploreBrands />
+        <Lakme />
+        <AmericanEagleBanner />
 
-{/* <BannerGrid /> */}
-{/* <CategoryCard /> */}
-{/* <ProductGrid /> */}
+      {/* <BannerGrid /> */}
+      {/* <CategoryCard /> */}
+      {/* <ProductGrid /> */}
 
-</main>
-<Footer />
-</body>
-</html>
-)
-}
+      </main>
+      <Footer />
+    </body>
+  </html>
+  )
+  }
