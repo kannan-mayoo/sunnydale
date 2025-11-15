@@ -113,7 +113,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-[#fac37c] text-white">
+    <section className="bg-[#9C5903] text-white">
       <div className="max-w-7xl mx-auto px-6 py-8">
         <div className="flex flex-col items-center text-center">
           <motion.h2
@@ -150,7 +150,7 @@ export default function Hero() {
         </motion.div>
 
         <div className="mt-6 text-center">
-          <button className="inline-flex items-center text-white font-medium hover:underline cursor-pointer hover:text-2xl hover:text-orange-900">
+          <button className="inline-flex items-center text-white font-medium hover:underline cursor-pointer hover:text-2xl hover:text-gray-900">
             Discover now →
           </button>
         </div>

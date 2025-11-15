@@ -54,7 +54,7 @@ export default function WinterSection() {
                 className="w-full h-96 object-cover rounded-xl"
               />
               <div className="absolute bottom-6 left-0 right-0 text-center">
-                <p className="text-white text-4xl font-extrabold drop-shadow-md">
+                <p className="text-white text-2xl font-medium capitalize drop-shadow-md">
                   {item.title}
                 </p>
               </div>

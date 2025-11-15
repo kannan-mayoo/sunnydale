@@ -75,8 +75,8 @@ return (
         <WinterSection />
         <GstBanner />
         <ExtraBanner />
-        <ExploreBrands />
-        <Lakme />
+        {/* <ExploreBrands />
+        <Lakme /> */}
         <AmericanEagleBanner />
 
       {/* <BannerGrid /> */}
