@@ -152,16 +152,16 @@ export default function Header() {
     <header className="w-full bg-white border-b  shadow-sm border-yellow-300/50 space-x-2">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 ">
         {/* Logo */}
-        <h1 className="text-2xl font-semibold tracking-tight hover:cursor-pointer mr-3 ml-[-6] text-gray-900">
+        <h1 className="text-xl md:text-2xl font-semibold tracking-tight hover:cursor-pointer mr-3 ml-[-6] text-gray-900">
           Sunnydale
         </h1>
 
         {/* Search */}
-        <div className=" relative w-1/3">
+        <div className="relative w-1/3">
           <input
             type="text"
             placeholder="Search products, brands and more"
-            className="w-full border border-gray-300 rounded-full py-2 pl-4 pr-10 px-50 text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
+            className="w-full border border-gray-300 rounded-full py-1 pl-2 md:py-2 md:pl-4  pr-10 px-50 text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
           />
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -176,8 +176,8 @@ export default function Header() {
         </div>
 
         {/* Right icons */}
-        <div className="flex items-center gap-6 text-sm text-gray-700 ">
-          <button className="bg-[#9C5903] text-white font-semibold text-sm px-2 ml-4 sm:px-4 py-0.5 sm:py-2 rounded-sm hover:bg-[#e4a61e] hover:cursor-pointer transition-colors shadow-sm ">Sign In</button>
+        <div className="flex items-center gap-4 text-sm text-gray-700 ">
+          <button className="bg-[#9C5903] text-white font-semibold text-xs md:text-sm px-2 ml-4 sm:px-4 py-1.5 sm:py-2 rounded-sm hover:bg-[#e4a61e] hover:cursor-pointer transition-colors shadow-sm ">Sign In</button>
           <div className="flex flex-col items-center cursor-pointer">
             <Heart className="w-5 h-6 text-black" strokeWidth={1.5} />
             <button className="hidden md:flex  hover:border-b-4 border-orange-500 hover:cursor-pointer">Wishlist</button>
