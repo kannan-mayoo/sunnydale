@@ -2,7 +2,8 @@ export default function GstBanner() {
   return (
     <div className="w-full flex justify-center">
       <div className="
-        w-[60%] 
+        w-[90%] h-18
+        md:w-[60%] md:h-24
         bg-linear-to-b from-[#c9493e] to-[#7d1e17]
         text-white 
         py-8 

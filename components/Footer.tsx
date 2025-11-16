@@ -71,7 +71,7 @@ export default function Footer() {
           <p className="text-sm text-gray-600 mt-1">
             Shop our products and offers on-the-go.
           </p>
-          <div className="flex gap-3 mt-4">
+          {/* <div className="flex gap-3 mt-4">
             <Image
               src="/appstore.png"
               alt="App Store"
@@ -86,7 +86,7 @@ export default function Footer() {
               height={45}
               className="cursor-pointer"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
