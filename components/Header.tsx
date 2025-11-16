@@ -149,15 +149,15 @@ import { Heart, ShoppingBag, MoreVertical } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="w-full bg-white border-b  shadow-sm border-yellow-300/50 ">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <header className="w-full bg-white border-b  shadow-sm border-yellow-300/50 space-x-2">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 ">
         {/* Logo */}
-        <h1 className="text-2xl font-semibold tracking-tight hover:cursor-pointer text-gray-900">
+        <h1 className="text-2xl font-semibold tracking-tight hover:cursor-pointer mr-3 ml-[-6] text-gray-900">
           Sunnydale
         </h1>
 
         {/* Search */}
-        <div className="relative w-1/3">
+        <div className=" relative w-1/3">
           <input
             type="text"
             placeholder="Search products, brands and more"
@@ -177,18 +177,18 @@ export default function Header() {
 
         {/* Right icons */}
         <div className="flex items-center gap-6 text-sm text-gray-700 ">
-          <button className="bg-[#fdbb28] text-white font-semibold text-sm px-4 py-2 rounded-sm hover:bg-[#e4a61e] hover:cursor-pointer transition-colors shadow-sm ">Sign In</button>
+          <button className="bg-[#9C5903] text-white font-semibold text-sm px-2 ml-4 sm:px-4 py-0.5 sm:py-2 rounded-sm hover:bg-[#e4a61e] hover:cursor-pointer transition-colors shadow-sm ">Sign In</button>
           <div className="flex flex-col items-center cursor-pointer">
             <Heart className="w-5 h-6 text-black" strokeWidth={1.5} />
-            <button className="hover:border-b-4 border-orange-500 hover:cursor-pointer">Wishlist</button>
+            <button className="hidden md:flex  hover:border-b-4 border-orange-500 hover:cursor-pointer">Wishlist</button>
           </div>
           <div className="flex flex-col items-center cursor-pointer">
             <ShoppingBag className="w-5 h-6 text-black" strokeWidth={1.5} />
-            <button className="hover:border-b-4 border-orange-500 hover:cursor-pointer">Basket</button>
+            <button className="hidden md:flex hover:border-b-4 border-orange-500 hover:cursor-pointer">Basket</button>
           </div>
           <div className="flex flex-col items-center cursor-pointer">
             <MoreVertical className="w-5 h-6 text-black" strokeWidth={1.5} />
-            <button className="hover:border-b-4 border-orange-500 hover:cursor-pointer">More</button>
+            <button className="hidden md:flex hover:border-b-4 border-orange-500 hover:cursor-pointer">More</button>
           </div>
         </div>
       </div>

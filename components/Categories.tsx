@@ -86,7 +86,7 @@ import Image from "next/image";
 const categories: Record<string, string[]> = {
   Women: ["Tops & Tees", "Kurta & Kurtis", "Kurta Sets", "Dresses", "Pants"],
   Men: ["Shirts", "T-Shirts", "Jeans", "Trousers", "Jackets"],
-  Kids: ["Girls", "Boys", "Baby Wear"],
+  // Kids: ["Girls", "Boys", "Baby Wear"],
   "Shoes & Bags": ["Heels", "Sneakers", "Handbags"],
   Glam: ["Beauty", "Skincare", "Fragrances"],
   // Home: ["Bedding", "Décor", "Kitchen"],
@@ -100,7 +100,7 @@ export default function Categories() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-12">
       {/* Title */}
-      <h2 className="text-2xl font-semibold text-gray-900 border-l-4 border-orange-500 pl-2">
+      <h2 className="text-2xl font-semibold text-gray-900 border-l-4 border-[#9C5903] pl-2">
         Top Categories
       </h2>
 
@@ -113,7 +113,7 @@ export default function Categories() {
               onClick={() => setActive(cat)}
               className={`text-left px-3 py-2 text-sm font-medium rounded transition-all ${
                 active === cat
-                  ? "bg-gray-100 text-orange-600 border-l-4 border-orange-500"
+                  ? "bg-gray-100 text-orange-600 border-l-4 border-[#9C5903]"
                   : "hover:bg-gray-50 text-gray-700"
               }`}
             >
